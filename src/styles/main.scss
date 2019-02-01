@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main-container {
+  padding: 2.5rem 0;
+}
+
+button {
+  cursor: pointer;
+  margin: 5px 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.red {
+  background: rgba(255, 0, 0, 0.2);
+}
+
+.green {
+  background: rgba(0, 255, 0, 0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+@import '../../node_modules/react-datetime/css/react-datetime';
